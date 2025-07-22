@@ -28,3 +28,31 @@
 # if int(age) >= 18:
 #     print("You are eligible for voting.")
 # print("ThankYou")
+
+# age = input("Enter your age : ")
+
+# if int(age) >= 18:
+#     print("You are eligible for voting.")
+# elif int(age) <18 and int(age)>0:
+#     print("You are a minor and does not eligible for voting.")
+# else:
+#     print("Wrong Input")
+# print("ThankYou")
+
+# x = input("Enter the first number : ")
+# o = input("Enter the Operator (+,-,*,/,%) : ")
+# y = input("Enter the second number : ")
+# x = int(x)
+# y = int(y)
+# if o == "+":
+#     print(x+y)
+# elif o == "-":
+#     print(x-y)
+# elif o == "*":
+#     print(x*y)
+# elif o == "/":
+#     print(x/y)
+# elif o == "%":
+#     print(x%y)
+# else:
+#     print("Invalid Operator")
