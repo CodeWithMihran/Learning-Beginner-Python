@@ -316,13 +316,69 @@
 
 # Practise Question 2
 
-words = ["donkey", "ganda", "bad"]
+# words = ["donkey", "ganda", "bad"]
 
-with open("newfile.txt") as f:
-    content = f.read()
+# with open("newfile.txt") as f:
+#     content = f.read()
 
-for word in words:
-    content = content.replace(word, "#"*len(word))
+# for word in words:
+#     content = content.replace(word, "#"*len(word))
 
-with open("newfile.txt", "w") as f:
-    f.write(content)        
+# with open("newfile.txt", "w") as f:
+#     f.write(content)        
+
+
+# Object Oriented Programming
+
+# class Employee:
+#     lang = "Python"
+#     salary = 60000
+
+#     def __init__(self, name, lang, salary):
+#         self.name = name
+#         self.lang = lang
+#         self.salary = salary
+#         print("Object is created")
+
+#     def getInfo(self):
+#         print(f"{self.name}, The Language is {self.lang} and yhe salay is {self.salary}")
+
+#     @staticmethod
+#     def greet():        
+#         print("Hi there.....")
+
+
+# # e1 = Employee()
+# # e1.name = "Mihran"
+# # print(e1.name)
+# # e1.getInfo()
+
+# e2 = Employee("Snehal", "Java", 12000)
+# e2.getInfo()
+
+
+# Guess the number game
+
+# import random
+
+# n = random.randint(1,100)
+# a = -1
+# guesses = 0
+# while(n != a):
+#     a = int(input("Guess the number : "))
+#     if(n>a):
+#         print("Higher number please")
+#         guesses += 1
+#     elif(n<a):
+#         print("Lower number please")
+#         guesses += 1 
+
+# print(f"You have guesses the number {n} in {guesses} guesses")
+
+
+
+# ADVANCED PYTHON
+# Using Walrus Opertation
+
+if(n := len([1,2,3,4,5])) > 3:
+    print(f"List is too long ({n} elements, expected <= 3)")
